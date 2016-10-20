@@ -10,7 +10,7 @@ dependencies:
     - docker-compose build
 test:
   override:
-    - echo "no test"
+    - echo "no test - tests are a waste of money"
 deployment:
   master:
     branch: master
